@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+@use "../abstracts/helpers" as *;
+@use "sass:color";
+
+.botao {
+  @extend %botao;
+
+  &--amarelo {
+    @extend %botao--amarelo;
+  }
+
+  &--centralizado {
+    @extend %botao--centralizado;
+  }
+
+  &--texto-pequeno {
+    @extend %botao--texto-pequeno;
+  }
+}
